@@ -33,18 +33,26 @@
       /* Remove the by setting margin: 0 */
       dd{
         font-size: large 1.5em;
-        background-color: #ddd;
+        background-color: lightblue;
         margin: 20px;
+        padding: 2em;
+        line-height: 1;
       }
 
 
     /* Style both the dt and dd */
     /* Using the comma groups selectors */
-    dt, dd {
+    dt{
       /* Add some space between these elements and their content */
       /* padding: 0.5em */
       line-height: 1.5;
+      background-color: rgb(24, 24, 107);
       padding: 2em;
+      color: white;
+    }
+
+    header{
+      text-align: right;
     }
 
     /* Stretch Challenges: 
@@ -81,6 +89,10 @@
 
     <dt><time datetime="2018-03-05">05 March 2018</time></dt>
     <dd>Heavy rain.</dd>
+    <dt><time datetime="2018-03-06">06 March 2018</time></dt>
+    <dd>Partially Cloudy.</dd>
+    <dt><time datetime="2018-03-07">07 March 2018</time></dt>
+    <dd>Sunny and clear.</dd>
   </dl>
 </article>
 
